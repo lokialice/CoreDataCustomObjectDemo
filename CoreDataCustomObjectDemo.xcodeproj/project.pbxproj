@@ -14,6 +14,7 @@
 		618AAB161B019DE1008FF500 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 618AAB151B019DE1008FF500 /* Images.xcassets */; };
 		618AAB191B019DE1008FF500 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 618AAB171B019DE1008FF500 /* LaunchScreen.xib */; };
 		618AAB251B019DE1008FF500 /* CoreDataCustomObjectDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618AAB241B019DE1008FF500 /* CoreDataCustomObjectDemoTests.swift */; };
+		618AAB2F1B019E99008FF500 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618AAB2E1B019E99008FF500 /* Users.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		618AAB1E1B019DE1008FF500 /* CoreDataCustomObjectDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataCustomObjectDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		618AAB231B019DE1008FF500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		618AAB241B019DE1008FF500 /* CoreDataCustomObjectDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataCustomObjectDemoTests.swift; sourceTree = "<group>"; };
+		618AAB2E1B019E99008FF500 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				618AAB171B019DE1008FF500 /* LaunchScreen.xib */,
 				618AAB0D1B019DE1008FF500 /* CoreDataCustomObjectDemo.xcdatamodeld */,
 				618AAB091B019DE1008FF500 /* Supporting Files */,
+				618AAB2E1B019E99008FF500 /* Users.swift */,
 			);
 			path = CoreDataCustomObjectDemo;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				618AAB2F1B019E99008FF500 /* Users.swift in Sources */,
 				618AAB111B019DE1008FF500 /* ViewController.swift in Sources */,
 				618AAB0C1B019DE1008FF500 /* AppDelegate.swift in Sources */,
 				618AAB0F1B019DE1008FF500 /* CoreDataCustomObjectDemo.xcdatamodeld in Sources */,
